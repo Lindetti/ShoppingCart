@@ -1,0 +1,31 @@
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+}
+
+.github {
+    width: 0;
+    height:0;
+    border-top: 100px solid black;
+    border-right: 100px solid transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.links {
+    display: flex;
+    gap: 1rem;
+}
+
+.cartBtn {
+    background-color: black;
+    padding: 1rem;
+    color: white;
+}
