@@ -1,0 +1,123 @@
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+ .modal-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        border-radius: 10px;
+        width: 400px;
+        height: 500px;
+        padding: 1rem;
+        color: white;
+        overflow: auto;
+}
+
+.cartAmount {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.cartProducts {
+    width: 100%;
+    margin-top: 1rem;
+    border-top: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.close-icon-cart {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+}
+
+.product-cart-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-product-name {
+    display: flex;
+    align-items: center;
+}
+
+.product-cart-info img {
+    width: 100px;
+}
+
+.close-x-cart {
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.modal-price {
+    color: orange;
+}
+
+.totalPrice {
+    width: 100%;
+    height: 50px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid grey;
+}
+
+
+.closeDiv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    padding-right: 1rem;
+  }
+
+  .close-icon {
+    cursor: pointer;
+  }
+  
+  .close-x {
+    font-size: 35px;
+    color: white;
+  }
+
+  .slide-in {
+    right: 0;
+  }
+  
+  .slide-out {
+    right: -100%;
+  }
+
+.display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }
